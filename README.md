@@ -1,4 +1,6 @@
-Project Overview
+Airbnb Data Analysis and Visualization
+
+Project Overview:
 This project explores the Airbnb dataset (2019) to derive insights from property listings, focusing on trends in the travel industry, tourism, and property management. By leveraging tools like Python, MySQL, Streamlit, Plotly, and Power BI, this project delivers an interactive and comprehensive dashboard for data analysis and decision-making.
 ________________________________________
 📖 What is Airbnb?
@@ -40,7 +42,7 @@ Extracted the Airbnb 2019 dataset, which includes:
 •	Used Pandas to convert JSON data into structured DataFrames
 •	Cleaned and organized the data (handled missing values, converted data types, etc.)
 •	Ensured data quality for meaningful analysis
-3. 🗃️ Database Integration (Optional)
+3. 🗃️ Database Integration
 •	Established a connection using MySQL Connector
 •	Loaded cleaned datasets into a MySQL database
 •	Enabled efficient data storage and querying
@@ -52,17 +54,18 @@ o	Price trends
 o	Review patterns
 o	Availability analysis
 
-
 5. 📈 Power BI Dashboarding
 •	Imported cleaned data into Power BI
 •	Created interactive reports to:
-o	Explore regional pricing trends
-o	Understand host behaviour
-o	Identify top-performing property types
+•	Explore regional pricing trends
+•	Understand host behaviour
+•	Identify top-performing property types
+
 Streamlit
- In the 'Home' section of our project, users can explore detailed hotel information by selecting a country.This feature provides an overview of each hotel, including price, room type, description, and ratings.
+ In the 'Home' section of our project, users can explore detailed hotel information by selecting a country. This feature provides an overview of each hotel, including price, room type, description, and ratings.
  In the 'Discover' section, users have the opportunity to explore countries through dynamic geo-visualizations, supplemented with price insights.
  In the 'Insight' section, users explore two categories: 'Top Insights' and 'Filtered Insights'. 'Top Insights' offer pre-defined queries with insightful analysis, while 'Filtered Insights' allow users to select specific criteria for tailored visualizations
+ 
 Power BI
 Power BI dashboard provides interactive visualizations and insights derived from the Airbnb dataset. It allows you to explore various aspects of Airbnb listings, including pricing trends, property types, and geographical distributions.
  
